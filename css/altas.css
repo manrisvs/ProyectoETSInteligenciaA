@@ -1,0 +1,621 @@
+/*---LOGIN---OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.encabezado{
+	width: 100%;
+    background: #2f3e46;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+}
+.encabezadotexto{
+	text-align: center;
+	font-family:'Century Gothic';
+	color: #FFFFFF;
+}
+.encabezadotexto2{
+	height: 30px;
+	width: 100%;
+	top: 45px;
+	text-align: center;
+	font-family:'Century Gothic';
+	color: #FFFFFF;
+	position: fixed;
+}
+.encabezado2{
+	width: 100%;
+    top: 60px;
+    height: 30px;
+    background: #354f52;
+    position: fixed;
+    left: 0px;
+}
+.encabezado3{
+	width: 100%;
+    top: 90px;
+    height: 18px;
+    background: #52796f;
+    position: fixed;
+    left: 0px;
+}
+.contenido{
+	width: 100%;
+    top: 108px;
+    height: calc(100% - 108px);
+    position: fixed;
+    left: 0px;
+}
+.login{
+	width: 70%;
+	height: 100%;
+	top: 109px;
+	left: 15%;
+	background: black;
+	position: fixed; 
+	opacity:0.5 ;
+}
+.login2{
+	width: 100%;
+	height: 100%;
+	top: 108px;
+	left: 0%;
+	background: #3B3838;
+	position: fixed; 
+	opacity:0.8 ;
+}
+.login1{
+	width: 70%;
+	height: 100%;
+	top: 110px;
+	left: 15%;
+	position: fixed; 
+}
+
+.inicio{
+	text-align: center;
+	font-family: 'Century Gothic';
+	color: #333333;
+	width: 50%;
+	left: 25%;
+	height: 40px;
+	position: fixed;
+}
+.inici{
+	text-align: center;
+	font-family: 'Century Gothic';
+	color: white;
+	width: 50%;
+	left: 25%;
+	height: 40px;
+	position: fixed;
+}
+.autor{
+	height:40px;
+	width:13%;
+	background: #cad2c5;
+	position:fixed;
+	top:500px;
+	left:68.4%; 
+	border-radius: 20px;
+	border:0px;
+	color: #FFFFFF;	
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+}
+.autor2{
+	height:40px;
+	width:13%;
+	position:fixed;
+	top:510px;
+	left:68.4%; 
+	color: #FFFFFF;	
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+}
+.autor4{
+	height:40px;
+	width:13%;
+	position:fixed;
+	top:510px;
+	left:68.4%; 
+	background: none;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+}
+.autor3{
+	left:43.13%
+}
+.que{
+	left:18.6%; 
+}
+.como{
+	left:35.2%; 
+}
+.ejercicio{
+	left:51.8%;
+}
+.texto{
+	width: 98%;
+	top: 40px; 
+	position:relative;
+	text-align: justify;
+}
+.logo{
+	width: 20%;
+	top: 200px;
+	left: 40%;
+	position: fixed;
+}
+/*---PLANTILLA DE INICIO, ALTAS, INFO MAESTROS---OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.portal{
+	width:240px; 
+	height:60px; 
+	background:#354f52;
+	position: fixed;
+	left: 0px;
+	margin-top: 0px;
+}
+.portaletras{
+	top: 5px;
+	left: 10px;
+	width: 59.85px;
+	height: 50px;
+	position: absolute;
+}
+.sesion{
+	right: 15px;
+	top:15px;
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	color: #FFFFFF;	
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+	
+}
+.menu{
+	height: calc(100% - 60px);
+	top:60px;
+	left: 0px;
+	width: 180px;
+	position: fixed;
+	background: #84a98c;
+}
+.iconos{
+	height: 16px;
+	width: 16px;
+}
+.alumno{
+	height: 30px;
+	width: 180px;
+	top:60px;
+	left: 0px;
+	width: 180px;
+	position: fixed;
+	background: #52796f;
+	color: white;
+	font-family: 'Century Gothic';
+	text-align: center;
+	display:flex;
+	align-items: center;
+	justify-content: center; 
+	text-decoration: none;
+
+}
+.inicio2{
+	height: 35px ;
+	width: 180px;
+	left:0px;
+	background: #84a98c;
+	color: white;
+	position: fixed;
+	font-family: 'Century Gothic';
+	border: 0px;
+	top:90px;
+	text-align: left;
+	outline: none;
+	text-decoration: none;
+}
+.altas{
+	height: 35px ;
+	width: 180px;
+	left:0px;
+	background: #84a98c;
+	color: white;
+	position: fixed;
+	font-family: 'Century Gothic';
+	border: 0px;
+	top:120px;
+	text-align: left;
+	outline: none;
+	text-decoration: none;
+}
+.maestro{
+	height: 35px ;
+	width: 180px;
+	left:0px;
+	background: #84a98c;
+	color: white;
+	position: fixed;
+	font-family: 'Century Gothic';
+	border: 0px;
+	top:150px;
+	text-align: left;
+	outline: none;
+	text-decoration: none;
+}
+.uaq1{
+	width: 700px;
+}
+.ejer{
+	height: 35px ;
+	width: 180px;
+	left:0px;
+	background: #84a98c;
+	color: white;
+	position: fixed;
+	font-family: 'Century Gothic';
+	border: 0px;
+	top:180px;
+	text-align: left;
+	outline: none;
+	text-decoration: none;
+}
+.fondo{
+	top:60px;
+	left:180px ;
+	width: 100%;
+	height: 100%;
+	background:#e5e5e5 ;
+	position: fixed;
+}
+.fondo2{
+	top:80px;
+	right: 20px;
+	width: calc(100% - 223px);
+	height: 100%;
+	background: #ffffff;
+	position: fixed;
+}
+.resg{
+	font-family: 'Century Gothic';
+	text-align: left;
+	left: 235px;
+	position: fixed;
+	color: #000000; 
+}
+.sn{
+	color: white;
+}
+.tm{
+	position: relative;
+	width: 110%;
+	left: -5%;
+}
+/*---INICIO---OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.avisos{
+	right: 52px;
+	top:150px;
+	width:calc(100% - 285px);
+	height:75% ;
+	position: fixed;
+	outline: none;
+	border-radius: 10px;
+	border: #cad2c5| 2px solid;
+	font-family: 'Century Gothic';
+}
+.titu{
+	text-align: center;
+}
+.aviso{
+	left: 5%;
+	top:0px;
+	width:90%;
+	height:100% ;
+	font-family: 'Century Gothic';
+ 	text-align: center;
+ 	position: relative;
+ 	color: black;
+ }
+ .parra{
+ 	color:#94939B;
+ }
+ .i1{
+ 	position: absolute;
+ 	width: 100px;
+ }
+ .i2{
+ 	position: relative;
+ 	width: 500px;
+ }
+.i3{
+	position: relative;
+	width: 100px;
+}
+.ult{
+	position: relative;
+	width: 100%;
+}
+.texto{
+	width: 600px;
+	height: 150px;
+}
+.envi{
+	height:40px;
+	width:13%;
+	background: #94C9A9;
+	border-radius: 20px;
+	border:0px;
+	color: #FFFFFF;	
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+}
+}
+
+
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.memory-game {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+.memory-card {
+  width: calc(25% - 20px);
+  height: calc(33.333% - 20px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1C7CCC;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+
+
+
+.pregresp {
+border: 1px solid #7DA5E0;
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pregunta {
+color: #7DA5E0;
+}
+
+.respuestas {
+color: #000000;
+}
+
+.pregresp4 {
+border: 1px;
+background: #C6ECAE;
+border-radius: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 50%;
+left: 0%;
+top: 0px;
+position: relative;
+padding: 10px;
+margin: 10px;
+text-align: center;
+color: black;
+cursor: pointer;
+
+}
+
+.pregresp451 {
+border: 1px;
+background: #C6ECAE;
+border-radius: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 50%;
+left: 0%;
+top: 0px;
+position: relative;
+padding: 10px;
+margin: 10px;
+text-align: center;
+color: black;
+cursor: text;
+
+}
+
+.pregresp2 {
+border: 1px solid #E5E5E5;
+background: #E5E5E5;
+border-radius: 10px;
+padding: 15px;
+margin: 15px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+
+.ok1{
+	width: 100%;
+	position: absolute;
+}
+.pregunta1{
+color: #000000;
+}
+.pregresp21{
+border: 1px solid #C6ECAE;
+border-radius: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 90%;
+left: 0%;
+position: relative;
+padding: 10px;
+margin: 10px;
+}
+.pregresp31 {
+border: 1px solid #C6ECAE;
+background: #C6ECAE;
+border-radius: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 80%;
+left: 0%;
+top: 0px;
+position: relative;
+padding: 10px;
+margin: 10px;
+
+}
+.pregresp41 {
+border: 1px solid #C6ECAE;
+background: #C6ECAE;
+border-radius: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+width: 10%;
+left: 0%;
+top: 0px;
+position: relative;
+padding: 10px;
+margin: 10px;
+text-align: center;
+
+}
+
+
+/*____________________________________________________________________________________________________*/
+.envi{
+	height:40px;
+	width:13%;
+	background: #94C9A9;
+	border-radius: 20px;
+	border:0px;
+	color: #FFFFFF;	
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	text-align-last: center;
+	cursor: pointer;
+}
+
+/*---radio---OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #C6ECAE;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+.comparar{
+	background: red;
+	width: 50%;
+	height: 800px;
+	margin: 10px;
+	float: left;
+	position: absolute;
+}
+
+.comparar2{
+	background: blue;
+	width: 50%;
+	height: 800px;
+	margin: 10px;
+	right: 0%;
+	position: absolute;
+}

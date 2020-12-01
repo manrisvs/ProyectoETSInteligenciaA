@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="altas.css">
+	<title></title>
+	<style>
+    #scroll{
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    </style>
+</head>
+<body>
+
+	<div class="encabezado">
+			<div class="portal">
+			<a href="menu.html">
+				<img src="logo.png" class="portaletras">
+			</a>
+		</div>
+		
+		<a href="index.html" class="sesion">Salir</a>
+	</div>
+	<div class="menu">
+		<div class="alumno" >
+			<a href="menu.html" class="alumno">Menú</a>
+		</div>
+		<a href="informacion.html" class="inicio2">
+			<img src="inicio.png" class="iconos">
+			&nbsp;&nbsp;<!--Título-->Información
+		</a>
+		<a href="sexo.html" class="altas">
+			<img src="altas.png" class="iconos">
+			&nbsp;&nbsp;Cambiar sexo
+		</a>
+		<a href="comparar.html" class="maestro">
+			<img src="fuerte.png" class="iconos">
+			&nbsp;&nbsp;Comparar ETS
+		</a>
+		<a href="autores.html" class="ejer">
+			<img src="informacion.png" class="iconos">
+			&nbsp;&nbsp;Autores
+		</a>		
+	</div>
+	<div class="fondo">
+		<div class="fondo2">
+			<h1 class="resg">Diagnóstico</h1>
+			<div class="avisos" id="scroll">
+				<div class="aviso">
+
+<h2>
+A continuación, se presentan una serie de síntomas, te pedimos que selecciones de manera certera las opciones que se muestran si es que has presentado o no algún síntoma.</h2>
+
+					<br>
+					<div class="pregresp21">
+  						<div class="pregunta1">Nombre
+  							<input type="name" name="num2" class="pregresp451" id="nombre">
+  							<h5>Tu nombre no sera publicado ni mostrado a ninguna persona</h5>
+  						</div>
+  					</div>
+
+
+<!-- Comunes--------------------Aqui -->
+
+
+
+					<h2>¿Ha presentado síntomas comunes como...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">1. ...Fiebre?
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r1" list="p1" class="pregresp4">
+  								<datalist id="p1">
+  									<option>No</option>
+                					<option>Entre 37.0 y 37.4</option>
+                					<option>Entre 37.5 y 38.0</option>
+                					<option>Entre 38.1 y 38.4</option>
+                					<option>Más de 38.5</option>
+              					</datalist>
+              				</div>
+              			</div>
+              		</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">2. ...Anemia?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r21"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r22"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">3. ...Dolor de garganta?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r3" list="p3" class="pregresp4">
+  								<datalist id="p3">
+  									       <option>No<!-- amarillo --></option>
+                					<option>Poco<!-- NAranja --></option>
+                					<option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>  
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">4. ...Fatiga?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r4" list="p4" class="pregresp4">
+  								<datalist id="p4">
+  									<option>No<!-- amarillo --></option>
+                					<option>Casi nada<!-- amarillo --></option>
+                					<option>Regular<!-- NAranja --></option>
+                					<option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+                       
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">5. ...Nauseas vomito?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r51"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r52"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">6. ...Pérdida de apetito?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r61"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r62"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">7. ...Orinar obscuro?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r71"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r72"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">8. ...Color amarillento en la piel o en la parte baja de los ojos?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r81"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r82"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">9. ...entumecimiento corporal?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r91"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r92"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">10. ...parálisis corporal?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r101"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r102"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">11. ...Ceguera?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r111"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r112"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">12. ...Demencia?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r121"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r122"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+
+<!-- Dolor--------------------Aqui -->
+
+
+
+
+					<h2>¿Ha experimentado síntomas de dolor...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">13. ...En la parte abdominal?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r13" list="p13" class="pregresp4">
+  								<datalist id="p13">
+  									<option>No<!-- Azul --></option>
+  									<option>Casi nada<!-- verde --></option>
+                					<option>Poco<!-- amarillo --></option>
+                					<option>Mucho<!-- NAranja --></option>
+                					<option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">14. ...E inchazón en los testículos?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r14" list="p14" class="pregresp4">
+  								<datalist id="p14">
+  									     <option>No<!-- verde --></option>
+                          <option>Casi nada<!-- amarillo --></option>
+                          <option>Regular<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">15. ...Al momento de tener relaciones sexuales?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r15" list="p15" class="pregresp4">
+  								<datalist id="p15">
+  									<option>No<!-- amarillo --></option>
+                          <option>Poco<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              				</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">16. ...Y sensibilidad en zona genital?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r161"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r162"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">17. ...Muscular?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r17" list="p17" class="pregresp4">
+  								<datalist id="p17">
+  									<option>No<!-- verde --></option>
+                          <option>Casi nada<!-- amarillo --></option>
+                          <option>Regular<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+<!-- Comezón--------------------Aqui -->
+
+
+
+
+  					<h2>¿Ha sentido comezón...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">18. ...En el ano?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r181"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r182"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">19. ...Irritación en el pene?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r19" list="p19" class="pregresp4">
+  								<datalist id="p19">
+  									<option>No<!-- Azul --></option>
+                    <option>Casi nada<!-- verde --></option>
+                          <option>Poco<!-- amarillo --></option>
+                          <option>Mucho<!-- NAranja --></option>
+                          <option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">20. ...Alrededor de área genital, glúteos y parte inferior de los muslos?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r20" list="p20" class="pregresp4">
+  								<datalist id="p20">
+  									<option>No<!-- amarillo --></option>
+                          <option>Poco<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">21. ..En el cuerpo?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r211"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r212"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+
+<!-- Fluido--------------------Aqui -->
+
+
+
+
+  					<h2>¿Ha notado un tipo de fluido...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">22. ..En el pene?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r222" list="p22" class="pregresp4">
+  								<datalist id="p22">
+  									<option>No<!-- Azul --></option>
+                    <option>Casi nada<!-- verde --></option>
+                          <option>Poco<!-- amarillo --></option>
+                          <option>Mucho<!-- NAranja --></option>
+                          <option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">23. ..Al momento de tener relaciones sexuales ha sangrado del pene?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r231"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r232"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">24. ..Como sangre que salga por la cabeza del pene?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r241"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r242"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+
+<!-- Ardor--------------------Aqui -->
+
+
+
+
+  					<h2>¿Ha tenido ardor...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">25. ..Al orinar?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r25" list="p25" class="pregresp4">
+  								<datalist id="p25">
+  									<option>No</option>
+  									<option>Casi nada<!-- Azul --></option>
+                					<option>Poco<!-- verde --></option>
+                					<option>Regular<!-- amarillo --></option>
+                					<option>Mucho<!-- NAranja --></option>
+                					<option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">26. ..En el ano a la hora de defecar?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r26" list="p26" class="pregresp4">
+  								<datalist id="p26">
+  									<option>No<!-- amarillo --></option>
+                          <option>Poco<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+<!-- salpullido--------------------Aqui -->
+
+
+
+
+  					<h2>¿Ha notado un tipo de inflamación como...</h2>  					
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">27. ..Salpullido?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r27" list="p27" class="pregresp4">
+  								<datalist id="p27">
+  									<option>No</option>
+  									<option>Casi nada<!-- Azul --></option>
+                					<option>Poco<!-- verde --></option>
+                					<option>Regular<!-- amarillo --></option>
+                					<option>Mucho<!-- NAranja --></option>
+                					<option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+                                  <!-- Rojo -->
+            <!-- NAranja -->
+            <!-- amarillo -->
+            <!-- verde -->
+            <!-- Azul -->
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">28. ..Ulceras en zonas genitales, anales o cercanas?
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r28" list="p28" class="pregresp4">
+  								<datalist id="p28">
+  									<option>No<!-- verde --></option>
+                          <option>Casi nada<!-- amarillo --></option>
+                          <option>Regular<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+
+<!-- Verrugas--------------------Aqui -->
+
+
+
+
+  					<h2>¿Ha notado ciertas Verrugas...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">29. ..Genitales? (Hinchazón color carne marrón o rosa en área genital)
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r29" list="p29" class="pregresp4">
+  								<datalist id="p29">
+  									<option>No<!-- verde --></option>
+                          <option>Casi nada<!-- amarillo --></option>
+                          <option>Regular<!-- NAranja --></option>
+                          <option>Mucho<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">30. ..Juntas que toman forma de coliflor?
+  							<!-- Aqui -->
+  							<br />
+  							<div>
+  								<br>
+  								<img src="sino.png">
+  								<br>
+  								<br>
+  								<input type="radio" name="pre2" value="1" id="r301"> Si
+  								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  								<input type="radio" name="pre2" value="2" id="r302"> No
+  								<br>
+  								<br>
+  							</div>
+  						</div>
+  					</div>
+
+
+<!-- Hinchaón--------------------Aqui -->
+
+
+
+
+					<h2>¿Se ha percatado de un hinchazón en...</h2>
+
+  					<div class="pregresp21">
+  						<div class="pregunta1">31. ..cuello, axila o  ingle?(ganglios linfáticos)
+  							<!-- Aqui -->
+  							<br />
+  							<div class="respuestas">
+  								<input type="text" name="pre1"  id="r31" list="p31" class="pregresp4">
+  								<datalist id="p31">
+  									<option>No<!-- Azul --></option>
+                    <option>Casi nada<!-- verde --></option>
+                          <option>Poco<!-- amarillo --></option>
+                          <option>Mucho<!-- NAranja --></option>
+                          <option>Demasiado<!-- Rojo --></option>
+              					</datalist>
+              				</div>
+  						</div>
+  					</div>
+
+  					<h2>Listo por fin terminamos ahora da click en el botón de “Diagnosticar” para obtener tu resultado </h2>
+
+            <div class="pregresp21">
+              <h1>Resultados</h1>
+              <p id="resultados"></p>
+            </div>
+
+					<input type="button" name="enviar" class="envi" onclick="diagnostico()" value="Diagnosticar">
+  
+					</div>
+					</div>
+					<br>
+
+					<br><br>
+				</div>
+		</div>
+	</div> 
+</body>
+<script src="funcion.js"></script>
+
+</html>
